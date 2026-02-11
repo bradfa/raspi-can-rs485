@@ -6,3 +6,7 @@
 	path = openembedded-core
 	url = git://git.openembedded.org/openembedded-core
 	branch = scarthgap
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = https://github.com/agherzan/meta-raspberrypi.git
+	branch = scarthgap
