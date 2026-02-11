@@ -2,3 +2,7 @@
 	path = bitbake
 	url = git://git.openembedded.org/bitbake
 	branch = 2.8
+[submodule "openembedded-core"]
+	path = openembedded-core
+	url = git://git.openembedded.org/openembedded-core
+	branch = scarthgap
