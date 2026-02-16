@@ -12,9 +12,8 @@ starting point for an application that communicates over CAN and RS-485.
 
 This repository uses a non-standard layout for convenience: `meta-bradfa` lives
 directly in the repo alongside `build/conf/`, while the other layers
-(`openembedded-core`, `meta-raspberrypi`, and `bitbake`) are included as git
-submodules. This keeps everything self-contained in a single clone but is not a
-pattern you would follow in a production Yocto project.
+are included as git submodules. This keeps everything self-contained in a single
+clone but is not a pattern you would follow in a production Yocto project.
 
 ## Getting the source
 
@@ -35,6 +34,7 @@ git submodule update --init --recursive
 |---|---|
 | `openembedded-core/meta` | OE-core (scarthgap) |
 | `meta-raspberrypi` | Raspberry Pi BSP |
+| `meta-openembedded/meta-networking` | Provides various packages |
 | `meta-bradfa` | Custom MACHINE, DISTRO, and image recipe |
 
 ## Build
